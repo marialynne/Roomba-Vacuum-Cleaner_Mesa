@@ -80,3 +80,4 @@ class RoomModel(mesa.Model):
             if type(agent) == DirtyAgent and agent.cleaned:
                 cleanedCells += 1
         model.clean_percentage = (cleanedCells / model.dirtyCells) * 100
+
